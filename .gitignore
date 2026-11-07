@@ -1,0 +1,42 @@
+# Credentials and local state
+.env
+.env.*
+config/*
+!config/__init__.py
+!config/jarvis.ico
+**/token*.json
+**/client_secret*.json
+*credentials*.json
+*.pem
+*.key
+memory/*
+!memory/__init__.py
+!memory/config_manager.py
+!memory/memory_manager.py
+*.sqlite*
+*.db
+
+# Python and editor files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Runtime and development workspaces
+*.log
+logs/
+downloads/
+screenshots/
+checkpoints/
+**/.jarvis-backups/
+development-workspaces/
